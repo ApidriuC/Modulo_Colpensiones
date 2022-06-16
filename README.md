@@ -2,7 +2,7 @@
 
 # Agendamiento Modulo Colpensiones
 
-![Part 1](https://github.com/ApidriuC/Modulo_Colpensiones/blob/main/assets/img/Captura.PNG)
+![Part 1](https://github.com/ApidriuC/Modulo_Colpensiones/blob/main/assets/img/Captura3.PNG)
 
 # Confirmación Horario
 
