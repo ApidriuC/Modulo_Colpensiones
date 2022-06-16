@@ -6,6 +6,16 @@ function hora(hora) {
     pintar.innerHTML = textoValue;
 
 }
+function cambiarHeader(cambio) {
+    if (cambio == document.getElementById("continuar")) {
+        var info = document.getElementById("cambiarHeader");
+        info.innerHTML = "Si cita ha sido asignada";
+    }
+    else {
+        var info = document.getElementById("cambiarHeader");
+        info.innerHTML = "Un asesor le atenderá online desde la comodidad de su casa u oficina";
+    }
+}
 
 
 function pintarTodo(element) {

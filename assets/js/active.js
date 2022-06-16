@@ -1,17 +1,6 @@
-/* 
-const button = document.querySelector('button');
-button.onclick = escuchar();
-    
-
-function escuchar(){
-    this.style.backgroundColor = "#C1C1C1";
-} */
-
-
-
 
 function pintarButton0() {
-    
+
     document.getElementById("continuar").style.backgroundColor = "#1C50E3";
     document.getElementById("continuar").style.pointerEvents = "visible"
     document.getElementById("button0").style.backgroundColor = "#C1C1C1";

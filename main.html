@@ -17,21 +17,25 @@
             <nav class="headerNav">
                 <div class="headerMenu">
                     <div class="headerIcono">
-                        <img id="icono" src="assets/img/Trazado 184.svg" alt="">
+                        <img id="icono" src="assets/img/Trazado 184.svg" style="width: 100%;
+                        height: 100%;" alt="">
                     </div>
                     <div class="textMenu">
                         <p>Menu</p>
                     </div>
                 </div>
                 <div class="headerIcono1">
-                    <img src="assets/img/iconGOVCO.svg" alt="">
+                    <img src="assets/img/iconGOVCO.svg" style="width: 100%;
+                    height: 80%; margin-top: 3%;" alt="">
                 </div>
                 <div class="headerIcono2">
-                    <img src="assets/img/Imagen 2.png" alt="">
+                    <img src="assets/img/Imagen 2.png" style="width: 100%;
+                    height: 100%;" alt="">
                 </div>
                 <div class="headerSoporte">
                     <div class="soporte">
-                        <img src="assets/img/Grupo 699.png" alt="">
+                        <img src="assets/img/Grupo 699.png" style="width: 100%;
+                        height: 100%;" alt="">
                     </div>
                     <div class="headerTexto">
                         <p>Soporte en línea</p>
@@ -39,7 +43,8 @@
                 </div>
                 <div class="headerInicioSesion">
                     <div class="icono">
-                        <img src="assets/img/Grupo 1775.png" alt="">
+                        <img src="assets/img/Grupo 1775.png" style="width: 100%;
+                        height: 100%;" alt="">
                     </div>
                     <div class="text">
                         <p>Juán Perez</p>
@@ -58,7 +63,8 @@
                             <p>AGENDAMIENTO</p>
                         </div>
                         <div class="text">
-                            <p>Un asesor le atenderá online desde la comodidad de su casa u oficina</p>
+                            <p id="cambiarHeader">Un asesor le atenderá online desde la comodidad de su casa u oficina
+                            </p>
                         </div>
                         <div class="barra">
                         </div>
@@ -121,8 +127,9 @@
                                     <p class="textNumber">29</p> -->
                                 </div>
                             </div>
-                            <p id="valueMes1" class="text" style="margin-top: 43%;">Junio</p>
+
                             <div class="contentDates2">
+                                <p id="valueMes1" class="text" style="bottom: 85%;">Junio</p>
                                 <div id="seleccionado10" class="date">
                                     <!-- <p class="textDay">Lunes</p>
                                     <p class="textNumber">25</p> -->
@@ -197,7 +204,7 @@
                             tener digitales, en formato pdf, y las instrucciones para conectarse a la cita.</p>
                     </div>
                 </div>
-                <button onclick="closeModal();" class="volver">
+                <button onclick="closeModal(); cambiarHeader(this)" class="volver">
                     Volver al inicio
                 </button>
             </div>
@@ -223,10 +230,11 @@
                 <button onclick="pintarButton5();hora(this);" id="button5" class="contenedor">03:00 pm</button>
                 <button onclick="pintarButton6();hora(this);" id="button6" class="contenedor">04:00 pm</button>
                 <button onclick="pintarButton7();hora(this);" id="button7" class="contenedor">05:00 pm</button>
-                <button onclick="continueModal();" id="continuar" class="buttonContinuar">Confirmar
+                <button onclick="continueModal(); cambiarHeader(this);" id="continuar" class="buttonContinuar">Confirmar
                     cita</button>
             </div>
         </section>
+
     </section>
     <script src="assets/js/modal.js"></script>
     <script src="assets/js/continue.js"></script>

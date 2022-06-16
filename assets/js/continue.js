@@ -1,6 +1,6 @@
 
 
-function openModal(element) {
+function openModal() {
     document.getElementById("continueModal").style.display = "block";
     document.getElementById("desplegarModal").style.top = "-256%";
 }
