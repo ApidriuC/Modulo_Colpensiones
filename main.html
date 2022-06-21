@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colpensiones</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Spartan' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <!-- /*Contenedor Página Completa*/ -->
+    <section class="paginaCompleta">
+        <!-- /*Contenedor Header*/ -->
+        <section class="header">
+            <nav class="headerNav">
+                <div class="headerMenu">
+                    <div class="headerIcono">
+                        <img id="icono" src="assets/img/Trazado 184.svg" style="width: 100%;
+                        height: 100%;" alt="">
+                    </div>
+                    <div class="textMenu">
+                        <p>Menu</p>
+                    </div>
+                </div>
+                <div class="headerIcono1">
+                    <img src="assets/img/iconGOVCO.svg" style="width: 100%;
+                    height: 80%; margin-top: 3%;" alt="">
+                </div>
+                <div class="headerIcono2">
+                    <img src="assets/img/Imagen 2.png" style="width: 100%;
+                    height: 100%;" alt="">
+                </div>
+                <div class="headerSoporte">
+                    <div class="soporte">
+                        <img src="assets/img/Grupo 699.png" style="width: 100%;
+                        height: 100%;" alt="">
+                    </div>
+                    <div class="headerTexto">
+                        <p>Soporte en línea</p>
+                    </div>
+                </div>
+                <div class="headerInicioSesion">
+                    <div class="icono">
+                        <img src="assets/img/Grupo 1775.png" style="width: 100%;
+                        height: 100%;" alt="">
+                    </div>
+                    <div class="text">
+                        <p>Juán Perez</p>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!-- Contenido Middle -->
+        <section class="middle">
+            <div id="middlePage" class="contentMiddle">
+                <!-- Contenido Header del MiddlePage -->
+                <div class="headerMiddle">
+                    <div class="icono">
+                        <img class="imagen" src="assets/img/iconColp@2x.png" alt="">
+                    </div>
+                    <div class="contentMiddleMiddle">
+                        <div class="agendamiento">
+                            <p>AGENDAMIENTO</p>
+                        </div>
+                        <div class="text">
+                            <p id="cambiarHeader">Un asesor le atenderá online desde la comodidad de su casa u oficina
+                            </p>
+                        </div>
+                        <div class="barra">
+                        </div>
+                    </div>
+                </div>
+                <!-- Contenido Tablas del MiddlePage -->
+                <div id="tablas" class="contentTableDates">
+                    <div class="table">
+                        <div class="tableHeader">
+                            <p class="titulo">SELECCIONE DÍA Y HORA</p>
+                            <p class="subtitulo">Para su cita de acompañamiento virtual</p>
+                        </div>
+                        <!-- Contenedor de botones de Mayo-->
+                        <div class="tableMiddle">
+                            <p id="valueMes" class="text">Mayo</p>
+                            <div class="contentDates">
+                                <div onclick="modal(); pintarTodo(this);" id="seleccionado" class="date">
+                                    <p id="valueDia" class="textDay">Lunes
+                                    </p>
+                                    <p id="valueNumero" class="textNumber">25</p>
+                                </div>
+                                <div onclick="modal(); pintarTodo(this);" id="seleccionado1" class="date"
+                                    style="left: 20%;">
+                                    <p id="valueDia1" class="textDay">Martes</p>
+                                    <p id="valueNumero1" class="textNumber">26</p>
+                                </div>
+                                <div onclick="modal();pintarTodo(this);" id="seleccionado2" class="date"
+                                    style="left: 40%;">
+                                    <p id="valueDia2" class="textDay">Miércoles</p>
+                                    <p id="valueNumero2" class="textNumber">27</p>
+                                </div>
+                                <div onclick="modal();pintarTodo(this);" id="seleccionado3" class="date"
+                                    style="left: 60%;">
+                                    <p id="valueDia3" class="textDay">Jueves</p>
+                                    <p id="valueNumero3" class="textNumber">28</p>
+                                </div>
+                                <div onclick="modal();pintarTodo(this);" id="seleccionado4" class="date"
+                                    style="left: 80%;">
+                                    <p id="valueDia4" class="textDay">Viernes</p>
+                                    <p id="valueNumero4" class="textNumber">29</p>
+                                </div>
+                                <div onclick="modal();pintarTodo(this);" id="seleccionado5" class="date"
+                                    style="    top: 50%;">
+                                    <p id="valueDia" class="textDay">Lunes</p>
+                                    <p id="valueNumero5" class="textNumber">31</p>
+                                </div>
+                                <div id="seleccionado6" class="date" style="left: 20%;    top: 50%;">
+                                    <!-- <p id="valueDia1" class="textDay">Martes</p>
+                                    <p id="valueNumero6" class="textNumber">26</p> -->
+                                </div>
+                                <div id="seleccionado7" class="date" style="left: 40%;    top: 50%;">
+                                    <!-- <p class="textDay">Miércoles</p>
+                                    <p id="valueNumero7" class="textNumber">27</p> -->
+                                </div>
+                                <div id="seleccionado8" class="date" style="left: 60%;    top: 50%;">
+
+                                    <!-- <p class="textDay">Jueves</p>
+                                    <p class="textNumber">28</p> -->
+                                </div>
+                                <div id="seleccionado9" class="date" style="left: 80%;    top: 50%;">
+                                    <!-- <p class="textDay">Viernes</p>
+                                    <p class="textNumber">29</p> -->
+                                </div>
+                            </div>
+                            <!-- Contenedor de botones de Junio-->
+                            <div class="contentDates2">
+                                <p id="valueMes1" class="text" style="bottom: 85%;">Junio</p>
+                                <div id="seleccionado10" class="date">
+                                    <!-- <p class="textDay">Lunes</p>
+                                    <p class="textNumber">25</p> -->
+                                </div>
+                                <div onclick="modal();pintarTodo(this);" id="seleccionado11" class="date"
+                                    style="left: 20%;">
+                                    <p id="valueDia1" class="textDay">Martes</p>
+                                    <p id="valueNumero11" class="textNumber">1</p>
+                                </div>
+                                <div onclick="modal();pintarTodo(this);" id="seleccionado12" class="date"
+                                    style="left: 40%;">
+                                    <p id="valueDia2" class="textDay">Miércoles</p>
+                                    <p id="valueNumero12" class="textNumber">2</p>
+                                </div>
+                                <div onclick="modal();pintarTodo(this);" id="seleccionado13" class="date"
+                                    style="left: 60%;">
+                                    <p id="valueDia3" class="textDay">Jueves</p>
+                                    <p id="valueNumero13" class="textNumber">3</p>
+                                </div>
+                                <div onclick="modal();pintarTodo(this);" id="seleccionado14" class="date"
+                                    style="left: 80%;">
+                                    <p id="valueDia4" class="textDay">Viernes</p>
+                                    <p id="valueNumero14" class="textNumber">4</p>
+                                </div>
+                                <div onclick="modal();pintarTodo(this);" id="seleccionado15" class="date"
+                                    style="    top: 50%;">
+                                    <p id="valueDia" class="textDay">Lunes</p>
+                                    <p id="valueNumero15" class="textNumber">5</p>
+                                </div>
+                                <div class="date" style="left: 20%;    top: 50%;">
+                                    <!-- <p class="textDay">Martes</p>
+                                    <p class="textNumber">26</p> -->
+                                </div>
+                                <div class="date" style="left: 40%;    top: 50%;">
+                                    <!-- <p class="textDay">Miércoles</p>
+                                    <p class="textNumber">27</p> -->
+                                </div>
+                                <div class="date" style="left: 60%;    top: 50%;">
+                                    <!-- <p class="textDay">Jueves</p>
+                                    <p class="textNumber">28</p> -->
+                                </div>
+                                <div class="date" style="left: 80%;    top: 50%;">
+                                    <!-- <p class="textDay">Viernes</p>
+                                    <p class="textNumber">29</p> -->
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Final -->
+            <div id="continueModal" class="sectionContinue" style="display: none;">
+                <div class="contentContinue">
+                    <div class="contentMiddleContinue">
+                        <p class="text">CITA CONFIRMADA</p>
+                        <p class="subtext"><span style="text-align: left;
+                            font: normal normal 600 18px/21px Spartan;
+                            letter-spacing: -0.36px;
+                            color: #2E66CA;">Nelson Eduardo GómezCorrea</span><br> Le esperamos para su cita el:</p>
+                        <div class="contentMiddleDate">
+                            <div class="marco">
+                                <!-- Asignación de Fecha y Hora -->
+                                <p id="DiaFinal" class="textMarco" style="font-size: 20px;
+                                font-weight: normal;"></p>
+                                <p id="NumeroFinal" class="textMarco"></p>
+                                <p id="MesFinal" class="textMarco" style="font-size: 20px;
+                                font-weight: normal;"></p>
+                                <p id="HoraFinal" class="textMarco"></p>
+                            </div>
+                        </div>
+                        <p class="textFinal">A su correo electrónico hemos enviado un mensaje con la lista de
+                            documentos que debe
+                            tener digitales, en formato pdf, y las instrucciones para conectarse a la cita.</p>
+                    </div>
+                </div>
+                <button onclick="closeModal(); cambiarHeader(this)" class="volver">
+                    Volver al inicio
+                </button>
+            </div>
+        </section>
+        <!-- Modal para seleccionar la Hora de la cita -->
+        <section id="desplegarModal" class="contentModal" style="top: -256%;">
+            <div class="modalHeader">
+                <div onclick="modal();" class="exit">
+                    <img src="assets/img/Grupo 1765.svg" alt="">
+                </div>
+                <p id="Dia" class="title"></p>
+                <p id="Numero" class="title" style="top: 4%;
+                font-size: 35px;
+                font-weight: bold;"></p>
+                <p id="Mes" class="title" style="top: 12%;"></p>
+            </div>
+            <div class="modalMiddle">
+                <button onclick="pintarButton0();hora(this);" id="button0" class="contenedor">08:00 am</button>
+                <button onclick="pintarButton1();hora(this);" id="button1" class="contenedor">09:00 am</button>
+                <button onclick="pintarButton2();hora(this);" id="button2" class="contenedor">10:00 am</button>
+                <button onclick="pintarButton3();hora(this);" id="button3" class="contenedor">11:00 am</button>
+                <button onclick="pintarButton4();hora(this);" id="button4" class="contenedor">02:00 pm</button>
+                <button onclick="pintarButton5();hora(this);" id="button5" class="contenedor">03:00 pm</button>
+                <button onclick="pintarButton6();hora(this);" id="button6" class="contenedor">04:00 pm</button>
+                <button onclick="pintarButton7();hora(this);" id="button7" class="contenedor">05:00 pm</button>
+                <button onclick="continueModal(); cambiarHeader(this);" id="continuar" class="buttonContinuar">Confirmar
+                    cita</button>
+            </div>
+        </section>
+
+    </section>
+    <script src="assets/js/modal.js"></script>
+    <script src="assets/js/continue.js"></script>
+    <script src="assets/js/active.js"></script>
+    <script src="assets/js/innerText.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</body>
+
+</html>
