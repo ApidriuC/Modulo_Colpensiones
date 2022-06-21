@@ -1,5 +1,4 @@
-
-
+/*Desplegar Modal Final - Comparación Modal1 / Modal2*/
 function openModal() {
     document.getElementById("continueModal").style.display = "block";
     document.getElementById("desplegarModal").style.top = "-256%";
@@ -8,7 +7,6 @@ function closeModal() {
     document.getElementById("continueModal").style.display = "none";
     document.getElementById("tablas").style.display = "block";
 }
-
 function continueModal() {
     if (document.getElementById("continueModal").style.display != "none") {
         closeModal();

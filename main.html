@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,10 +8,11 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link href='https://fonts.googleapis.com/css?family=Spartan' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-
 </head>
 <body>
+    <!-- /*Contenedor Página Completa*/ -->
     <section class="paginaCompleta">
+        <!-- /*Contenedor Header*/ -->
         <section class="header">
             <nav class="headerNav">
                 <div class="headerMenu">
@@ -52,8 +52,10 @@
                 </div>
             </nav>
         </section>
+        <!-- Contenido Middle -->
         <section class="middle">
             <div id="middlePage" class="contentMiddle">
+                <!-- Contenido Header del MiddlePage -->
                 <div class="headerMiddle">
                     <div class="icono">
                         <img class="imagen" src="assets/img/iconColp@2x.png" alt="">
@@ -70,12 +72,14 @@
                         </div>
                     </div>
                 </div>
+                <!-- Contenido Tablas del MiddlePage -->
                 <div id="tablas" class="contentTableDates">
                     <div class="table">
                         <div class="tableHeader">
                             <p class="titulo">SELECCIONE DÍA Y HORA</p>
                             <p class="subtitulo">Para su cita de acompañamiento virtual</p>
                         </div>
+                        <!-- Contenedor de botones de Mayo-->
                         <div class="tableMiddle">
                             <p id="valueMes" class="text">Mayo</p>
                             <div class="contentDates">
@@ -127,7 +131,7 @@
                                     <p class="textNumber">29</p> -->
                                 </div>
                             </div>
-
+                            <!-- Contenedor de botones de Junio-->
                             <div class="contentDates2">
                                 <p id="valueMes1" class="text" style="bottom: 85%;">Junio</p>
                                 <div id="seleccionado10" class="date">
@@ -181,6 +185,7 @@
                     </div>
                 </div>
             </div>
+            <!-- Modal Final -->
             <div id="continueModal" class="sectionContinue" style="display: none;">
                 <div class="contentContinue">
                     <div class="contentMiddleContinue">
@@ -191,6 +196,7 @@
                             color: #2E66CA;">Nelson Eduardo GómezCorrea</span><br> Le esperamos para su cita el:</p>
                         <div class="contentMiddleDate">
                             <div class="marco">
+                                <!-- Asignación de Fecha y Hora -->
                                 <p id="DiaFinal" class="textMarco" style="font-size: 20px;
                                 font-weight: normal;"></p>
                                 <p id="NumeroFinal" class="textMarco"></p>
@@ -209,11 +215,11 @@
                 </button>
             </div>
         </section>
+        <!-- Modal para seleccionar la Hora de la cita -->
         <section id="desplegarModal" class="contentModal" style="top: -256%;">
             <div class="modalHeader">
                 <div onclick="modal();" class="exit">
                     <img src="assets/img/Grupo 1765.svg" alt="">
-
                 </div>
                 <p id="Dia" class="title"></p>
                 <p id="Numero" class="title" style="top: 4%;

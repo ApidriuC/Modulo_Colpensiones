@@ -1,11 +1,14 @@
+/*Cambio de Hora Modal Final*/
 function hora(hora) {
-    /* Hora */
+    
     var pintar = document.getElementById("HoraFinal");
     var texto = hora;
     var textoValue = texto.innerHTML;
     pintar.innerHTML = textoValue;
 
 }
+
+/*Cambio de Header Modal Final*/
 function cambiarHeader(cambio) {
     if (cambio == document.getElementById("continuar")) {
         var info = document.getElementById("cambiarHeader");
@@ -17,7 +20,7 @@ function cambiarHeader(cambio) {
     }
 }
 
-
+/*Cambio de Texto/Número/Mes contenedor Middle - Modal Final*/
 function pintarTodo(element) {
 
     if (element == document.getElementById("seleccionado")) {
@@ -277,9 +280,4 @@ function pintarTodo(element) {
         var pintarFinal = document.getElementById("MesFinal");
         pintarFinal.innerHTML = textoValue;
     }
-
-
-
-
-
 }

@@ -1,5 +1,4 @@
-
-
+/*Desplegar Modal1 seleccionar hora*/
 function modal() {
     document.getElementById("continuar").style.backgroundColor = "rgb(229, 229, 229)";
     document.getElementById("continuar").style.pointerEvents = "none"
